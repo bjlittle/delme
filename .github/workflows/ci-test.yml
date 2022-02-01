@@ -30,3 +30,7 @@ jobs:
       - name: "conda post"
         run: |
           env | sort | grep -i conda
+
+      - name: "env all"
+        run: |
+          env | sort
