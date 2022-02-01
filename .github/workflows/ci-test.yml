@@ -1,0 +1,11 @@
+name: ci-test
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  dummy:
+    run: |
+      env | sort | grep -i conda
