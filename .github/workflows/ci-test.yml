@@ -9,7 +9,24 @@ jobs:
   dummy:
     runs-on: "ubuntu-latest"
 
+    env:
+      ENV_NAME: "delme-dummy"
+
     steps:
-      - name: "conda env"
+      - name: "conda pre"
+        run: |
+          env | sort | grep -i conda
+
+      - name: "conda install"
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          miniforge-variant: Mambaforge
+          miniforge-version: latest
+          use-mamba: true
+          activate-environment: ${{ env.ENV_NAME }}
+          auto-update-conda: false
+          use-only-tar-bz2: true
+
+      - name: "conda post"
         run: |
           env | sort | grep -i conda
