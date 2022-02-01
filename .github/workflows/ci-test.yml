@@ -7,5 +7,12 @@ on:
 
 jobs:
   dummy:
-    run: |
-      env | sort | grep -i conda
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        shell: bash -l ${0}
+
+    steps:
+      - name: "conda env"
+        run: |
+          env | sort | grep -i conda
