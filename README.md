@@ -1,2 +1,2 @@
 # delme
-![oisst-avhrr](https://raw.githubusercontent.com/bjlittle/delme/main/data/smc.gif)
+![oisst-avhrr](https://raw.githubusercontent.com/bjlittle/delme/main/smc-timeseries.mp4)
