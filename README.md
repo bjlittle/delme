@@ -1,7 +1,3 @@
 # delme
 
-
-
-https://github.com/bjlittle/delme/assets/2051656/d3c217b9-615e-4a4b-bc8d-bca4f5e89938
-
-
+https://github.com/bjlittle/delme/assets/2051656/f4ef2c13-69b4-49bd-8d3e-af9f09105c33
